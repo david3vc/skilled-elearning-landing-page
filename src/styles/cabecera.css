@@ -1,0 +1,17 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.boton-get-started{
+    background-color: #13183f;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.boton-get-started__texto{
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
