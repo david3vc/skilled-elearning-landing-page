@@ -1,0 +1,30 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__titulo{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #13183f;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.principal__descripcion{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #83869a;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.principal__imagen{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.principal__imagen-receptiva{
+    width: 350px;
+    height: auto;
+}
