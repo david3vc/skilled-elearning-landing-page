@@ -1,0 +1,48 @@
+.card-1{
+    background: linear-gradient(#f02aa6, #ff6f48);
+    border-radius: 13px;
+    padding: 25px;
+}
+
+.card-1__texto{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+
+.card-2{
+    border-radius: 13px;
+    padding: 25px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    /* background-color: #dcdcdc; */
+    margin: 40px 0;
+    position: relative;
+}
+
+.card-2__icono{
+    position: absolute;
+    left: 25px;
+    top: -25px;
+}
+
+.card-2__cuerpo{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.card-2__titulo{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.card-2__descripcion{
+    color: #83869a;
+    margin: 15px 0;
+}
+
+.card-2__boton{
+    color: #f74780;
+    font-weight: bold;
+    margin: 15px 0;
+}

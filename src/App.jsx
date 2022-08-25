@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Cabecera from './components/Cabecera'
+import Cuerpo from './components/Cuerpo'
 import Principal from './components/Principal'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="">
       <Cabecera />
       <Principal />
+      <Cuerpo />
     </div>
   )
 }
