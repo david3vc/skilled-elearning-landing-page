@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13183f;
+    height: 120px;
+    padding: 0 20px;
+}
+
+.boton-get-started--rosado-morado{
+    background: linear-gradient(#4851ff, #f02aa6);
+}
