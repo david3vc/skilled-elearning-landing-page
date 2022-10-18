@@ -39,3 +39,17 @@
     color: #fff;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+/* Tablet */
+@media screen and (min-width: 576px) {
+    .cabecera{
+        padding: 0 50px;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 992px) {
+    /* .boton-get-started{
+        background-color: blue;
+    } */
+}

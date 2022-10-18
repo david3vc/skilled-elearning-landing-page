@@ -46,3 +46,60 @@
     font-weight: bold;
     margin: 15px 0;
 }
+
+/* Tablet */
+@media screen and (min-width: 576px) {
+    .cuerpo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card-1, .card-2{
+        width: 250px;
+        height: 180px;
+    }
+
+    .card-1{
+        position: relative;
+        top: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cuerpo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card-1, .card-2{
+        width: 310px;
+        height: 200px;
+    }
+
+    .card-1{
+        position: relative;
+        top: 40px;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 992px) {
+    /* .cuerpo{
+        justify-content: center;
+    } */
+
+    .card-1, .card-2{
+        width: 350px;
+        height: 200px;
+    }
+
+    .cuerpo{
+        margin-top: -220px;
+    }
+
+    .card-1__texto{
+        font-size: 32px;
+    }
+}
